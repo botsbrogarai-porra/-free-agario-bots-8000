@@ -1,12 +1,3 @@
-# free-agario-bots
-Free open source agar.io bots
-
-[Join our Discord](https://discord.gg/SDMNEcJ)
-
-## Usage
-[Video tutorial for Windows](https://www.youtube.com/watch?v=TkihvNIpiTw)
-
-
 Windows
 -------
 1. Install [Node.js](https://nodejs.org)
@@ -39,15 +30,3 @@ VPS
 14. To run the bots again just run `node server`, make sure you "Load unsafe scripts", click "Connect" button and then click "Start Bots" button if you did everything right bots should start again
 15. Always make sure you wait the 30 seconds for process to close or you are gonna get captcha on the VPS ip
 16. If you wanna run it 24/7 on the VPS run `sudo npm i -g pm2` command and then run `sudo pm2 start process.js` command
-
-
-## Captcha (only for Windows)
-If you get captcha alert you need to change your IP or get rid of captcha by playing with your IP. You can do so by:
-- Restarting your router (only if you have a dynamic IP)
-- Connecting to a VPN server like one from [ProtonVPN](https://protonvpn.com) which you make sure that doesn't has captcha
-- Playing logged out of your agar.io account until captcha goes away
-
-## Donate
-PayPal: nelthedeveloper@gmail.com (original creator) 
-
-PayPal: sonnybuchan12@gmail.com
